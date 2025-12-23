@@ -79,7 +79,7 @@ const program = [
 // Load program at $0600
 program.forEach((byte, i) => cpu.write(0x0600 + i, byte));
 
-// Set reset vector to point to our program
+// Set reset vector to point to the program
 cpu.write(0xFFFC, 0x00);
 cpu.write(0xFFFD, 0x06);
 
@@ -104,7 +104,6 @@ It handles CPU operations, but you'll need to add system-specific hardware to cr
 - **Commodore 64** - Add VIC-II, SID, and CIA chips
 - **Atari 2600** - Add TIA and RIOT chips
 
-The clean separation between CPU and peripherals makes integration straightforward.
 
 ## Installation
 ```bash
