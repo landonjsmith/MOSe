@@ -5,17 +5,6 @@ A cycle-accurate 6502 CPU emulator written in JavaScript.
 Originally developed as the CPU core for the [HoneyCrisp Emulator](https://github.com/landonjsmith/honeycrisp), 
 MOSe is now available for general-purpose use in building 6502-based system emulators.
 
-## Features
-- **Complete 6502 instruction set** - All 151 legal opcodes
-- **Undocumented opcodes** - Common illegal instructions (LAX, SAX, DCP, ISC, SLO, RLA, SRE, RRA, etc.)
-- **All addressing modes** - All 13 addressing modes correctly implemented
-- **Cycle-accurate timing** - Proper cycle counts including page crossing penalties
-- **Full register set** - A, X, Y, PC, S, and all status flags (C, Z, I, D, B, V, N)
-- **64KB memory space** - Standard 6502 memory layout (configurable)
-- **Stack operations** - Proper stack at $0100-$01FF
-- **Interrupt support** - BRK and RTI handling
-- **Production-tested** - Proven in production with [HoneyCrisp Emulator](https://github.com/landonjsmith/honeycrisp)
-
 ## Quick Start
 ```javascript
 // Create a CPU instance
