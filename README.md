@@ -121,8 +121,3 @@ git clone https://github.com/landonjsmith/MOSe.git
 
 ## License
 MIT License - See [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-- The 6502 was designed by Chuck Peddle and the MOS Technology team.
-- Originally developed for the HoneyCrisp Emulator project. (Shoutout to Steve Wozniak!)
-- Thanks to the retro computing community for keeping the 6502 alive!
