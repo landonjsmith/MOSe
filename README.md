@@ -285,9 +285,6 @@ git clone https://github.com/landonjsmith/MOSe.git
 - **Node.js** - Compatible with Node.js 12+ (CommonJS export included)
 - **Bundlers** - Works with Webpack, Rollup, Vite, etc.
 
-## Documentation
-- [Release Notes](RELEASE_NOTES.md) - Detailed changelog and migration guides
-
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
